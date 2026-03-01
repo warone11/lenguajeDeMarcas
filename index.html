@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <title>Ejercicios CSS</title>
+ <link rel="stylesheet" href="estilos.css">
+ <style>
+    
+    body{
+        background-color: aliceblue;
+
+    }
+    *{
+        font-family: Arial;
+        font-size: 16px;
+    }
+    h1#titulo-principal{
+        color: blue;
+    }
+    h1{
+        text-align: center;
+    }
+    .intro{
+        color:grey;
+    }
+    .texto.destacado{
+        font-weight: bold;
+    }
+    div.contenedor{
+        padding: 10px;
+    }
+    .contenedor p{
+        color:rgb(255, 0, 0);
+    }
+    .contenedor span{
+        color: green;
+    }
+    .item{
+        font-size: 12px;
+    }
+    ul{
+        list-style: none;
+    }
+    .especial{
+        color: yellowgreen;
+    }
+    .contenedor{
+        border-radius: 10px;
+        border-color: black;
+        border-width: 3px;
+        border-style:double
+    }
+    ul>*{
+        color:blueviolet;
+    }
+    .item.especial{
+        color:brown;
+    }
+    a{
+        color:chocolate;
+        text-decoration: none;
+        
+    }
+    a:hover {
+    color: red;
+    }
+
+
+    
+
+    
+ </style>
+</head>
+<body>
+ <h1 id="titulo-principal">Curso de CSS</h1>
+ <p class="intro">Este es un texto introductorio.</p>
+ <div class="contenedor">
+ <p class="texto">Primer párrafo</p>
+ <p class="texto destacado">Segundo párrafo</p>
+ <span>Texto dentro de span</span>
+ </div>
+ <ul id="lista">
+ <li class="item">Elemento 1</li>
+ <li class="item especial">Elemento 2</li>
+ <li class="item">Elemento 3</li>
+ </ul>
+ <a href="#">Enlace de ejemplo</a>
+</body>
+</html>

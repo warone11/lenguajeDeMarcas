@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Academia Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            
+            background-color: rgb(32, 98, 223);
+        }
+        h1{
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 0;
+            padding-top: 18px;
+            margin-bottom: 2px;
+        }
+        h1 span{
+            color: rgb(169, 204, 255);
+        }
+        .subtitulo{
+            margin-top: 0;
+            margin-bottom: 0px;
+            color: white;
+            text-align: center;
+            padding-bottom: 35px;
+        }
+        .menu ul{
+            background-color:rgb(36, 36, 36);
+            color: white;
+            list-style-type: none;
+            font-weight: bold;
+            margin: 0;
+            
+            text-align: center;
+        }
+        .menu ul li{
+            display: inline-block;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin: 0;
+        }
+        .menu a{
+            color: white;
+            text-decoration: none;
+            
+        }
+        .menu li:hover{
+            background-color: rgb(32, 98, 223);
+        }
+        .hero{
+            background-color: rgb(180, 227, 255);
+            margin: 0;
+            padding-top: 35px;
+            text-align: center;
+            padding-bottom: 35px;
+        }
+        .hero h2{
+            margin: 0;
+        }
+        .contenedor-cursos{
+            text-align: center;
+            
+            margin: 0;
+            padding: 40px;
+            max-width: 100%;
+            background-color: rgb(236, 233, 227);
+        }
+        .curso{
+            border-radius: 5px;
+            border-color: rgb(226, 226, 226);
+            border-width: 0.5px;
+            border-style: double;
+            background-color: white;
+            display:inline-block;
+            max-width: 250px;
+            padding: 25px;      
+            margin :10px;      
+        }
+        .curso img{
+            height: 100px;
+        }
+        .curso h3{
+            margin-top: 0;
+        }
+        .curso p{
+            margin-top: 10px;
+            margin-bottom: 35px;
+        }
+        .curso a{
+            text-decoration: none;
+            color: white;
+            background-color: rgb(32, 98, 223);
+            
+            padding: 10px;
+            
+            border-radius: 5px;
+            
+        }
+        .curso a:hover{
+            background-color: rgb(36, 36, 36);
+        }
+        .pie{
+            margin: 0;
+            padding: 15px;
+            text-align: center;
+            color: white;
+            background-color:rgb(36, 36, 36) ;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="cabecera">
+        <h1 class="titulo">Academia <span>Digital</span></h1>
+        <p class="subtitulo">Formación profesional en tecnología</p>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Profesorado</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h2>Aprende desarrollo web desde cero</h2>
+        <p>HTML5, CSS3 y diseño profesional de interfaces.</p>
+    </section>
+
+    <section class="contenedor-cursos">
+        
+        <article class="curso">
+            <img src="./html-icon.webp" alt="Curso HTML">
+            <h3>Curso de HTML5</h3>
+            <p>Aprende la estructura correcta de páginas web modernas.</p>
+            <a href="#" class="boton">Más información</a>
+        </article>
+
+        <article class="curso">
+            <img src="./css-icon.webp" alt="Curso CSS">
+            <h3>Curso de CSS3</h3>
+            <p>Diseña páginas web atractivas utilizando estilos profesionales.</p>
+            <a href="#" class="boton">Más información</a>
+        </article>
+
+        <article class="curso">
+            <img src="./web-design.webp" alt="Curso Diseño">
+            <h3>Diseño Web</h3>
+            <p>Aprende principios de diseño y experiencia de usuario.</p>
+            <a href="#" class="boton">Más información</a>
+        </article>
+
+    </section>
+
+    <footer class="pie">
+        <p>&copy; 2026 Academia Digital | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

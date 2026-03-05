@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Centro de Formación Digital</title>
+    <link rel="stylesheet" href="Simulacro3.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        body{
+            background-color: rgb(253,245,231);
+        }
+        .cabecera{
+            background-color: rgb(112,61,59);
+            text-align: center;
+            color: white;
+            padding-top: 25px;
+            padding-bottom: 55px;
+        }
+
+        .cabecera *{
+            display: inline;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .cabecera h1{
+            text-transform: uppercase;
+        }
+        .menu{
+            background-color: rgb(127,23,14);
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .menu ul{
+            list-style-type: none;
+            text-align: center;
+        }
+        .menu ul li{
+            display: inline;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .menu a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .menu li:hover{
+            background-color: rgb(112,61,59);
+        }
+        .contenedor{
+            background-color: white;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 15%;
+            margin-right: 15%;
+            padding: 25px;
+            border-style: dotted;
+            border-color: rgb(221,221,221);
+            color: #4a2d2a;
+        }
+        .contenedor h2{
+            
+            text-align: left;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            border-bottom: 2px;
+            border-bottom-style: double;
+            border-width: 1px;
+            border-bottom-color: rgb(221,221,221);
+            
+        }
+        table thead{
+            background-color: rgb(112,61,59);
+            
+        }
+        table thead th{
+            padding: 5px;
+            text-align: left;
+            color:white;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        table tbody td{
+            text-align: left;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        tr+tr{
+            background-color: rgb(249,227,210);
+        }
+        tr+tr+tr{
+            background-color: white;
+        }
+        .formulario-contacto{
+            font-weight: bold;
+            
+        }
+        form > *{
+            text-align: left;
+            display: block;
+            
+            
+        }
+        form label{
+            padding-top: 20px;
+            padding-bottom: 5px;
+        }
+        form input{
+            padding-bottom: 15px;
+            padding-right: 400px;
+            border-radius: 7px;
+            border-width: 0.1px;
+            border-color: rgb(221,221,221);
+        }
+        form select{
+            padding-left: 10px;
+            padding-right: 368px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 7px;
+            border-width: 0.1px;
+            border-color: rgb(221,221,221);
+        }
+        form select+input{
+            padding-top: 10px;
+            text-align: center;
+            background-color: rgb(112,61,59);
+            color:white;
+            font-weight: bold;
+            margin-top: 25px;
+            padding-left: 261px;
+            padding-right: 261px;
+            padding-top: 12px;
+            padding-bottom: 10px;
+        }
+        footer{
+            background-color: rgb(70,46,43);
+            color:white;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+        }
+
+        
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <header class="cabecera">
+        <h1>Centro de Formación Digital</h1>
+        <p class="subtitulo">Aprende tecnología con profesionales</p>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Precios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main class="contenedor">
+
+        <section class="tabla-precios">
+            <h2>Tabla de Precios</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Duración</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Desarrollo Web</td>
+                        <td>6 meses</td>
+                        <td>1200€</td>
+                    </tr>
+                    <tr>
+                        <td>Administración de Sistemas</td>
+                        <td>8 meses</td>
+                        <td>1500€</td>
+                    </tr>
+                    <tr>
+                        <td>Ciberseguridad</td>
+                        <td>5 meses</td>
+                        <td>1100€</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="formulario-contacto">
+            <h2 class="secundario">Solicita Información</h2>
+
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label for="curso">Curso de interés</label>
+                <select id="curso">
+                    <option>Desarrollo Web</option>
+                    <option>Administración de Sistemas</option>
+                    <option>Ciberseguridad</option>
+                </select>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        <p>© 2026 Centro de Formación Digital</p>
+    </footer>
+
+</body>
+</html>

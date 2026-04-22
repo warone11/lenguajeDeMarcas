@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+<title>Noticias de Tecnología</title>
+<link>https://ejemplo.com</link>
+<description>Canal RSS con noticias sobre tecnología</description>
+<copyright>By Juan Perez</copyright>
+
+<item>
+<title>Nuevos avances en Inteligencia Artificial</title>
+<link>https://ejemplo.com/noticia1</link>
+<description>Las empresas tecnológicas presentan nuevos modelos de IA.</description>
+<author>Juan Perez</author>
+<category>Tecnologia</category>
+<pubDate>Mon, 10 Mar 2026 10:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>Crecen las ventas de coches eléctricos</title>
+<link>https://ejemplo.com/noticia2</link>
+<description>Los coches eléctricos aumentan su presencia en el mercado.</description>
+<author>Juan Perez</author>
+<category>Motor</category>
+<pubDate>Tue, 11 Mar 2026 10:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>Nuevos smartphones para 2026</title>
+<link>https://ejemplo.com/noticia3</link>
+<description>Las marcas presentan móviles con mejores cámaras.</description>
+<author>Juan Perez</author>
+<category>Moviles</category>
+<pubDate>Wed, 12 Mar 2026 10:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>La realidad virtual gana popularidad</title>
+<link>https://ejemplo.com/noticia4</link>
+<description>La VR se utiliza cada vez más en videojuegos y educación.</description>
+<author>Juan Perez</author>
+<category>Videojuegos</category>
+<pubDate>Thu, 13 Mar 2026 10:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>Aumentan los ataques de ciberseguridad</title>
+<link>https://ejemplo.com/noticia5</link>
+<description>Expertos alertan sobre nuevas amenazas informáticas.</description>
+<author>Juan Perez</author>
+<category>Seguridad</category>
+<pubDate>Fri, 14 Mar 2026 10:00:00 GMT</pubDate>
+</item>
+
+</channel>
+
+</rss>
